@@ -1,17 +1,17 @@
 ## 리액트 쇼핑카드 만들기 🛒
 
 리액트와 함께 리덕스를 익히기 위해 강의를 보며 만든 간단한 쇼핑몰 프로젝트  
-(참고영상 : <https://youtu.be/0skzNIckrvQ>)
+(참고영상 : <https://youtu.be/0skzNIckrvQ>)  
 
 
-### redux 
+### redux  
 
 
 1. redux 설치
   * redux-thunk : action 을 비동기적으로 처리해줌
 ```
   npm i redux react-redux redux-thunk redux-devtools-extension
-```
+```  
 
 
 2. store.js 생성
