@@ -31,7 +31,7 @@
 ```
 
 3. app.js 에서 store 설정
-* 컴포넌트를 Provider 로 감싸 store를 전달준다.
+: 컴포넌트를 Provider 로 감싸 store를 전달준다.
 ```
   import { Provider } from 'react-redux'
   import store from './store'
