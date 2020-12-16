@@ -5,11 +5,14 @@
 
 
 ### redux 
+
+
 1. redux 설치
   * redux-thunk : action 을 비동기적으로 처리해줌
 ```
   npm i redux react-redux redux-thunk redux-devtools-extension
 ```
+
 
 2. store.js 생성
 ```
@@ -30,6 +33,7 @@
   export default store
 ```
 
+
 3. app.js 에서 store 설정
   : 컴포넌트를 Provider 로 감싸 store를 전달준다.
 ```
@@ -47,6 +51,7 @@
     );
   }
 ```
+
 
 4. 컴포넌트에서 redux 설정
   * connect : redux 와 연결
